@@ -16,6 +16,13 @@ public class Card {
    private int value;//1-13
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
+
+    Card(int value, String string) {
+     
+    }
+
+    Card() {
+    }
     /**
      * @return the suit
      */
@@ -40,7 +47,8 @@ public class Card {
     /**
      * @param value the value to set
      */
-    public void setValue(int value) {
-        this.value = value;
+    public void setValue(double value) {
+        this.value = (int) value;
+        
     }  
 }
