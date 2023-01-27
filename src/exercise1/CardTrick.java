@@ -6,8 +6,8 @@ import java.util.Scanner;
  * It then searches the array of cards for the match to the user's card. 
  * To be used as starting code in Exercise
  *
- * @author dancye
- * @author Paul Bonenfant Jan 25, 2022 
+ * @author Shivank Panchhi
+ * @author Shivank Panchhi Jan 26, 2022 
  */
 public class CardTrick {
     
